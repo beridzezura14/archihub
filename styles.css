@@ -5,6 +5,7 @@
 
 body {
 	overflow-x: hidden; /*--right gutter fix--*/
+
 }
 .navbar-brand img{
   height: 4rem;
@@ -13,21 +14,26 @@ body {
 .nav-item{
   font-size: 14px;
   width: 165px;
-}
 
+}
+.nav-link{
+    font-family: 'Allerta Stencil', sans-serif;
+
+}
 .lang{
     margin-top: 3px;
 }
 .language{
-  text-decoration: none;
-  color: gray;
   padding: 0 5px;
 }
 .language:hover{
   color: darkgrey;
   text-decoration: none;
 }
-
+.flag{
+    width: 25px;
+    height: 18px;
+}
 
 .load{
     animation: slide 2s;
@@ -55,11 +61,13 @@ body {
     text-align: center;
 }
 .principal h1{
-    font-size: 50px;
+    font-size: 69px;
     margin-bottom: 20px;
+    font-family: 'Allerta Stencil', sans-serif;
 }
 .principal p{
     margin-bottom: 50px;
+    font-family: 'Allerta Stencil', sans-serif;
 }
 @keyframes slide{
     0%{
