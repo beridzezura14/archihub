@@ -71,10 +71,10 @@ body {
 }
 @keyframes slide{
     0%{
-        background-image: url('assets/img/1.jpg');
+        background-image: url('assets/img/4.jpg');
     }
     20%{
-        background-image: url('assets/img/1.jpg');
+        background-image: url('assets/img/4.jpg');
     }
     20.01%{
         background-image: url('assets/img/2.jpg');
@@ -89,10 +89,10 @@ body {
         background-image: url('assets/img/3.jpg');
     }
     60.01%{
-        background-image: url('assets/img/4.jpg');
+        background-image: url('assets/img/1.jpg');
     }
     80%{
-        background-image: url('assets/img/4.jpg');
+        background-image: url('assets/img/1.jpg');
     }
     80.01%{
         background-image: url('assets/img/5.jpeg');
