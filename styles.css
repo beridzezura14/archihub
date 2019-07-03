@@ -55,8 +55,11 @@ body {
     text-align: center;
 }
 .principal h1{
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: 20px;
+}
+.principal p{
+    margin-bottom: 50px;
 }
 @keyframes slide{
     0%{
@@ -92,6 +95,27 @@ body {
     
 }
 
+.details{
+    border: 1px solide grey; 
+    border-radius: 5px;
+    color: white;
+    background: rgba(76, 175, 80, 0.3);
+    padding: 10px 15px 10px 15px;
+
+}
+.details:hover{
+    text-decoration: none;
+    color:#fff;
+}
+
+.head1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.head2{
+    color: grey;
+}
 
 @media(max-width: 770px) {
   .language_options{    
