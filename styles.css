@@ -123,3 +123,12 @@ body {
      padding: 5px 15px 5px 15px;
   }
 }
+
+@media (max-width: 500px){
+    .principal-head{
+    font-size: 30px;
+  }
+  .principal-paragraf{
+    font-size: 17px;
+  }
+}
