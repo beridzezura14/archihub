@@ -1,0 +1,35 @@
+@font-face {
+	font-family: normal;
+	src:url(../fonts/FiraGO-regular.ttf);
+}
+@font-face {
+	font-family: normal;
+	src:url(../fonts/pantonmtav3-bold.ttf);
+}
+@font-face {
+	font-family: caps;
+	src:url(../font/caps.ttf);
+}
+@font-face {
+	font-family: normal;
+	src:url(../font/normal-bold.ttf);
+}
+.nav-link, .head1, .details, .head2{
+	font-family: normal;
+}
+
+.principal h1{
+	font-family: normal;
+}
+.principal p{
+	font-family: normal;
+}
+.list h5 {
+	font-family: normal;
+}
+.section h4 {
+	font-family: normal;
+}
+p{
+	font-family: normal;
+}
