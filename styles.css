@@ -5,6 +5,7 @@
 
 body {
 	overflow-x: hidden; /*--right gutter fix--*/
+
 }
 .navbar-brand img{
   height: 4rem;
@@ -64,16 +65,44 @@ body {
     margin-bottom: 20px;
     font-family: 'Allerta Stencil', sans-serif;
 }
+
+
+
+
+.line {
+    width: 24em;
+    top:50%;
+    margin:auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.anim-typewriter{
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCussor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from{
+        width: 0;
+    }
+    to {
+        width: 8em;
+    }
+}
 .principal p{
     margin-bottom: 50px;
     font-family: 'Allerta Stencil', sans-serif;
 }
 @keyframes slide{
     0%{
-        background-image: url('assets/img/4.jpg');
+        background-image: url('assets/img/r7.jpg');
     }
     20%{
-        background-image: url('assets/img/4.jpg');
+        background-image: url('assets/img/r7.jpg');
     }
     20.01%{
         background-image: url('assets/img/2.jpg');
@@ -88,10 +117,10 @@ body {
         background-image: url('assets/img/3.jpg');
     }
     60.01%{
-        background-image: url('assets/img/r7.jpg');
+        background-image: url('assets/img/r4.jpg');
     }
     80%{
-        background-image: url('assets/img/r7.jpg');
+        background-image: url('assets/img/r4.jpg');
     }
     80.01%{
         background-image: url('assets/img/5.jpeg');
@@ -153,7 +182,7 @@ body {
     border-radius: 4px;
 }
 
-.list h5{
+.city{
     font-family: 'Allerta Stencil', sans-serif;
     color: #388a12;
     margin-top: 20px;
@@ -162,7 +191,11 @@ body {
     text-align: center;
     padding-bottom: 50px;
 }
+.city:hover{
+    color: #388a12; 
+    cursor: pointer;
 
+}
 @media(max-width: 1250px) {
   .project{
     display: flex;
@@ -207,5 +240,29 @@ body {
     width: 300px;
     
     border-radius: 4px;
+}
+.line {
+    width: 24em;
+    top:50%;
+    margin:auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.anim-typewriter{
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCussor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from{
+        width: 0;
+    }
+    to {
+        width: 6em;
+    }
 }
 }
