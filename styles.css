@@ -20,6 +20,9 @@ body {
     font-family: 'Allerta Stencil', sans-serif;
 
 }
+.nav-link:hover{
+    transition: 300ms;
+}
 .lang{
     margin-top: 3px;
 }
@@ -194,8 +197,75 @@ body {
 .city:hover{
     color: #388a12; 
     cursor: pointer;
+}
+
+footer{
+    background: #202021;
+    margin-top: -15px;
+    height: 490px;
+}
+
+.map iframe{
+    width: 100%;
+    height: 200px;
+    margin-top: 80px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.info-1{
+    color: yellow;
+    padding: 0 15px;
+    margin-left: -20px;
+    font-size: 30px;
+}
+.info-1:hover{
+    color: green;
+    transition: 500px;
+}
+.footer-p{
+    color: white;
+    cursor: pointer;
+}
+.footer-p:hover{
+    color: grey;
+    transition: 900ms;
+}
+
+.social{
+    display: flex;
+    margin-left: 8.5%;
+    margin-top: 40px;
+}
+
+.social a{
+    padding: 0 15px;
+    color: grey;
+    text-align: center;
 
 }
+.social a:hover{
+    color: white;
+    transition: 500px;
+}
+.last{
+    color: white;
+    font-size: 13px;
+    margin-left: 300px;
+    margin-top: -20px;
+}
+.yellow{
+    color: grey;
+}
+.yellow:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+
 @media(max-width: 1250px) {
   .project{
     display: flex;
@@ -206,8 +276,7 @@ body {
    }
    .image{
     height: 260px;
-    width: 500px;
-    
+    width: 500px;    
     border-radius: 4px;
 }
 
@@ -237,7 +306,7 @@ body {
   }
   .image{
     height: 150px;
-    width: 300px;
+    width: 100%;
     
     border-radius: 4px;
 }
@@ -265,9 +334,29 @@ body {
         width: 6em;
     }
 }
+
+footer{
+    height: 625px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
 @media (max-width: 400px){
     .principal h1{
         margin-top: 40px;
+    }
+    .last-line{
+        display: flex;
+        flex-direction: column;
+    }
+    .social{
+        margin-left: 2%
+    }
+    .last{
+        margin-left: 150px;
     }
 }
