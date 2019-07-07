@@ -52,6 +52,7 @@ body {
     left:5px;
 }
 
+
 .nav-link:hover{
     transition: 300ms;
 }
@@ -187,9 +188,10 @@ body {
 }
 
 .section{
-    background: #d1dfeb;
+    background: #d1dfeb;   
     padding-top: 50px;
 }
+
 .section h4{
     text-align: center;
     font-size: 30px;
@@ -292,9 +294,7 @@ footer{
     color: white;
 }
 /*----------------contact form------------------*/
-.section{
-    background-color: #e9ecef;
-}
+
  .contact-title{
     color: grey;
     text-transform: uppercase;
@@ -322,10 +322,10 @@ form{
     transition: all 4s ease-in-out;
   }
 .contact-form  {
-        width: 50%;
-        text-align: center;
-        margin-left: 25%;
-        height: 400px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    height: 400px;
   }
 .form-control{
     
@@ -363,20 +363,25 @@ x
     height: 260px;
     width: 500px;    
     border-radius: 4px;
-}
+   }
 
 }
-
 
 @media(max-width: 840px) {
   .language_options{    
     margin-top: 20px;
-     padding: 5px 15px 5px 15px;
+    padding: 5px 15px 5px 15px;
   }
   .image{
     height: 180px;
     width: 350px;
     border-radius: 4px;
+  }
+  .contact-form  {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    height: 400px;
   }
 
 }
@@ -428,6 +433,8 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+
 }
 @media (max-width: 415px){
     .principal h1{
@@ -454,5 +461,12 @@ footer{
     height: 150px;
     width: 100%;  
     border-radius: none;
+}
+.contact-form  {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    height: 400px;
+  }
 
 }
