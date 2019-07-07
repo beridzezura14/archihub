@@ -20,11 +20,11 @@ body {
     font-family: 'Allerta Stencil', sans-serif;
 
 }
-.project, .under, .cont{
+.proect, .under, .cont{
    display: inline-block;
    position: relative;
 }
-.project::after{
+.proect::after{
     content: '';
     height: 1px;
     width: 48%;
@@ -294,10 +294,8 @@ footer{
 /*----------------contact form------------------*/
 .section{
     background-color: #e9ecef;
-    height: 700px;
 }
  .contact-title{
-    margin-top: 150px;
     color: grey;
     text-transform: uppercase;
     transition: all 4s ease-in-out;
@@ -308,6 +306,8 @@ footer{
     text-align: center;
     margin-bottom: 30px;
     font-family: normal;
+    margin-top: 100px;
+
  }
 
  .contact-title h5 {
@@ -325,6 +325,7 @@ form{
         width: 50%;
         text-align: center;
         margin-left: 25%;
+        height: 400px;
   }
 .form-control{
     
@@ -344,8 +345,8 @@ form{
  background-color: orange;
 
 }
-input .submit{
-    background: orange;
+input{
+    margin-bottom: 150px;
 }
 x
 /*-------responsive-------------*/
