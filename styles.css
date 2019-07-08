@@ -348,7 +348,6 @@ form{
 input{
     margin-bottom: 150px;
 }
-x
 /*-------responsive-------------*/
 
 @media(max-width: 1250px) {
@@ -375,7 +374,7 @@ x
   .image{
     height: 180px;
     width: 350px;
-    border-radius: 4px;
+    border-radius: none;
   }
   .contact-form  {
     width: 80%;
@@ -397,7 +396,7 @@ x
   .image{
     height: 240px;
     width: 100%;
-
+    border-radius: none;
 }
 .line {
     width: 24em;
