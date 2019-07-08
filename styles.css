@@ -18,7 +18,6 @@ body {
 }
 .nav-link{
     font-family: 'Allerta Stencil', sans-serif;
-
 }
 .proect, .under, .cont{
    display: inline-block;
@@ -41,6 +40,7 @@ body {
     background: grey;
     bottom: 0;
     left:10px;
+    font-size: 15px;
 }
 .cont::after{
     content: '';
@@ -349,7 +349,38 @@ form{
 input{
     margin-bottom: 150px;
 }
+
+/*---------about----------------*/
+.about{
+
+    background-color: #d1dfeb;
+    font-family: normal;
+}
+.about h1 {
+    padding-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 32px;
+}
+.about_img{
+    height: 300px;
+    width: 500px;
+    margin-left:2%;
+    margin-top: 50px;
+    position: absolute;
+}
+.about_p{
+    max-width: 70%;
+    font-size: 18px;
+    margin-left: 15%;
+    padding-bottom: 70px;
+}
+.about_p ul{
+     margin-left: 5%;
+}
+
 /*-------responsive-------------*/
+
 
 @media(max-width: 1250px) {
   .project{
@@ -364,6 +395,11 @@ input{
     width: 500px;    
     border-radius: 4px;
    }
+   .about_p{
+    max-width: 80%;
+    margin-left: 10%;
+
+}
 
 }
 
@@ -383,6 +419,12 @@ input{
     margin-left: 10%;
     height: 400px;
   }
+  .about_p{
+    max-width: 80%;
+    margin-left: 10%;
+    font-size: 14px;
+
+}
 
 }
 
@@ -455,6 +497,11 @@ footer{
     .last{
         margin-left: 150px;
     }
+    .about_p{
+    
+    font-size: 15px;
+
+   }
 }
 @media (max-width: 350px){
     .image{
@@ -471,5 +518,11 @@ footer{
     margin-left: 5%;
     height: 400px;
   }
+  .about_p{
+    max-width: 90%;
+    margin-left: 5%;
+    font-size: 13px;
+
+}
 
 }
