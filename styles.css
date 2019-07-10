@@ -382,7 +382,6 @@ input{
 }
 
 /*-----------------project----------------------*/
-
 .all_project h1{
     margin-top: 140px;
     text-align: center;
@@ -462,8 +461,26 @@ input{
     font-family: normal;
 }
 
+.next {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #d9d2d9;
+}
 
+.next_h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    font-family: normal;
+}
 
+.next_img{
+    width: 300px;
+    height: 150px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    margin-left: 50px;
+}
 
 
 /*-------responsive-------------*/
@@ -626,6 +643,10 @@ footer{
 
     .black_box{
         width: 140%;
+    }
+    .next_img{
+       margin-left: 0px;
+        width: 100%;
     }
 
 
