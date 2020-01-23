@@ -185,6 +185,21 @@ body {
 .head2{
     color: grey;
 }
+.fas, .far{
+    font-size: 70px; 
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.fas:hover{
+    transition: 500ms;
+
+    color: orange;
+}
+.far:hover{
+    transition: 500ms;
+    color: orange
+}
 
 .section{
     background: #d1dfeb;   
